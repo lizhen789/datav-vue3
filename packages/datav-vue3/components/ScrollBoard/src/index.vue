@@ -193,6 +193,7 @@ onUnmounted(() => {
 
 defineExpose({
   updateRows,
+  onResize
 })
 
 function handleClick(ri, ci, row, ceil) {
